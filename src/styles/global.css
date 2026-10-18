@@ -1,0 +1,326 @@
+/* Base, utilitários e botões */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--white);
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+figure,
+blockquote {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--teal);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Âncoras compensam o cabeçalho fixo */
+[id] {
+  scroll-margin-top: calc(var(--header-h) + 8px);
+}
+
+section[tabindex='-1']:focus {
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  max-width: calc(var(--container) + var(--gutter) * 2);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 1rem;
+  z-index: 200;
+  padding: 0.75rem 1rem;
+  background: var(--white);
+  color: var(--purple);
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- Tipografia ---------- */
+.eyebrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--purple-vivid);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.eyebrow::before {
+  content: '';
+  width: 28px;
+  height: 3px;
+  background: var(--teal);
+  border-radius: 2px;
+  flex: none;
+}
+.eyebrow--light {
+  color: var(--on-dark-soft);
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(2rem, 5.2vw, 3.4rem);
+  line-height: 1.02;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+  color: var(--purple);
+  margin-top: 0.75rem;
+}
+
+.lead {
+  font-size: clamp(1.05rem, 2vw, 1.2rem);
+  color: var(--ink-soft);
+  margin-top: 1.25rem;
+}
+
+/* ---------- Botões ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 48px;
+  padding: 0.8rem 1.5rem;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, transform 0.2s;
+}
+.btn:hover {
+  transform: translateY(-1px);
+}
+.btn--block {
+  display: flex;
+  width: 100%;
+}
+.btn--sm {
+  min-height: 42px;
+  padding: 0.5rem 1.1rem;
+  font-size: 0.92rem;
+}
+.btn--lg {
+  min-height: 58px;
+  padding: 1rem 2.2rem;
+  font-size: 1.1rem;
+}
+
+.btn--primary {
+  background: var(--purple);
+  color: var(--white);
+}
+.btn--primary:hover {
+  background: var(--purple-vivid);
+}
+
+.btn--outline {
+  border-color: var(--purple);
+  color: var(--purple);
+  background: transparent;
+}
+.btn--outline:hover {
+  background: var(--purple);
+  color: var(--white);
+}
+
+.btn--light {
+  background: var(--white);
+  color: var(--purple-deep);
+}
+.btn--light:hover {
+  background: var(--lavender);
+}
+
+.btn--outline-light {
+  border-color: rgba(255, 255, 255, 0.55);
+  color: var(--white);
+}
+.btn--outline-light:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: var(--white);
+}
+
+/* WhatsApp usa o roxo da marca; o turquesa fica só como detalhe */
+.btn--whatsapp {
+  background: var(--white);
+  color: var(--purple-deep);
+  border-color: var(--white);
+}
+.btn--whatsapp svg {
+  color: var(--teal);
+}
+.btn--whatsapp:hover {
+  background: var(--lavender);
+}
+
+.btn--accent {
+  background: var(--white);
+  color: var(--navy);
+  min-height: 56px;
+  font-size: 1.05rem;
+}
+.btn--accent:hover {
+  background: var(--teal);
+  color: var(--navy);
+}
+
+/* ---------- Logo ---------- */
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.logo--image {
+  height: 44px;
+  width: auto;
+}
+.logo__mark {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--purple-vivid), var(--purple-deep));
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.4rem;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+.logo__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  text-align: left;
+}
+.logo__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.logo__sub {
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--on-dark-soft);
+}
+.logo--onLight .logo__name {
+  color: var(--purple);
+}
+.logo--onLight .logo__sub {
+  color: var(--ink-soft);
+}
+
+/* ---------- WhatsApp flutuante (celular) ---------- */
+.whatsapp-float {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--purple);
+  color: var(--white);
+  border: 2px solid var(--white);
+  box-shadow: 0 8px 22px -6px rgba(53, 6, 79, 0.6);
+}
+.whatsapp-float:hover {
+  background: var(--purple-vivid);
+}
+@media (min-width: 960px) {
+  .whatsapp-float {
+    display: none;
+  }
+}

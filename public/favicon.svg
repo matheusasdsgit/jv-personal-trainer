@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="JV (favicon provisório)">
+  <!-- FAVICON PROVISÓRIO: substituir pelo símbolo oficial quando os arquivos da marca forem enviados -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#650080"/>
+      <stop offset="1" stop-color="#35064F"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <path d="M40 0h10L30 64H20z" fill="#fff" opacity=".08"/>
+  <text x="32" y="43" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="28" fill="#fff">JV</text>
+  <rect x="16" y="50" width="32" height="3" rx="1.5" fill="#00B88A"/>
+</svg>

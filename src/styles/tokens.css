@@ -1,0 +1,43 @@
+/* Tokens de design — cores, tipografia, espaçamento */
+:root {
+  /* Marca */
+  --purple: #4b0d70;
+  --purple-deep: #35064f;
+  --purple-vivid: #650080;
+  --white: #ffffff;
+  --navy: #071f46;
+  --teal: #00b88a;
+
+  /* Neutros derivados da marca */
+  --lavender: #f5f0fa;
+  --lavender-line: #e3d7ee;
+  --ink: #071f46;
+  --ink-soft: #3d4f6e;
+  --on-dark: #ffffff;
+  --on-dark-soft: #d9c9e8;
+
+  /* Tipografia */
+  --font-display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --font-body: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Espaçamento */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 6rem;
+
+  --section-y: clamp(3.5rem, 8vw, 6.5rem);
+  --gutter: clamp(1.25rem, 5vw, 2.5rem);
+  --container: 1160px;
+
+  --radius: 14px;
+  --radius-sm: 8px;
+  --header-h: 68px;
+
+  --shadow-card: 0 10px 30px -14px rgba(53, 6, 79, 0.28);
+}
