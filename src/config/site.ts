@@ -71,10 +71,23 @@ export const images = {
   heroWidth: 900,
   heroHeight: 1100,
   /** public/images/about/ — foto do profissional na seção Sobre */
-  about: '',
-  aboutAlt: 'Retrato de João Victor, profissional de Educação Física',
-  aboutWidth: 800,
-  aboutHeight: 1000,
+  about: 'images/about/joao-victor.webp',
+  aboutAlt: 'João Victor, profissional de Educação Física, sorrindo de braços cruzados na academia',
+  aboutWidth: 848,
+  aboutHeight: 1060,
+  /** public/images/training/ — fotos das seções de serviços */
+  course: 'images/training/corrida-com-aluna.webp',
+  courseAlt: 'João Victor correndo ao lado de uma aluna, os dois sorrindo',
+  courseWidth: 853,
+  courseHeight: 1280,
+  consulting: 'images/training/execucao-exercicio.webp',
+  consultingAlt: 'João Victor executando um exercício com halter na academia',
+  consultingWidth: 1000,
+  consultingHeight: 1192,
+  inperson: 'images/training/atendimento-presencial.webp',
+  inpersonAlt: 'João Victor medindo a circunferência da perna de um aluno durante uma avaliação presencial',
+  inpersonWidth: 919,
+  inpersonHeight: 1149,
 } as const;
 
 /** Flags de publicação. */

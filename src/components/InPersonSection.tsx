@@ -1,5 +1,5 @@
 import { Dumbbell, MapPin, Ruler, UserCheck } from 'lucide-react';
-import { brand, whatsappMessages } from '../config/site';
+import { brand, images, whatsappMessages } from '../config/site';
 import { WhatsAppButton } from './WhatsAppButton';
 
 const services = [
@@ -28,6 +28,18 @@ export function InPersonSection() {
           </WhatsAppButton>
         </div>
 
+        <div className="inperson__side">
+        {images.inperson && (
+          <figure className="photo photo--inperson">
+            <img
+              src={images.inperson}
+              alt={images.inpersonAlt}
+              width={images.inpersonWidth}
+              height={images.inpersonHeight}
+              loading="lazy"
+            />
+          </figure>
+        )}
         <ul className="inperson__services">
           {services.map(({ icon: Icon, label }) => (
             <li key={label}>
@@ -36,6 +48,7 @@ export function InPersonSection() {
             </li>
           ))}
         </ul>
+        </div>
       </div>
     </section>
   );

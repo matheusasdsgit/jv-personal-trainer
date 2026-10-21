@@ -1,5 +1,5 @@
 import { ArrowUpRight, Check } from 'lucide-react';
-import { course, formatBRL, links } from '../config/site';
+import { course, formatBRL, images, links } from '../config/site';
 
 const benefits = [
   'Plano de treinamento estruturado',
@@ -34,6 +34,18 @@ export function RunningCourseSection() {
           </ul>
         </div>
 
+        <div className="course__side">
+        {images.course && (
+          <figure className="photo photo--course">
+            <img
+              src={images.course}
+              alt={images.courseAlt}
+              width={images.courseWidth}
+              height={images.courseHeight}
+              loading="lazy"
+            />
+          </figure>
+        )}
         <aside className="course__buy" aria-label="Compra do curso">
           <p className="course__km" aria-hidden="true">5<span>KM</span></p>
           <p className="course__price-label">Pagamento único</p>
@@ -50,6 +62,7 @@ export function RunningCourseSection() {
             <ArrowUpRight size={18} aria-hidden="true" />
           </a>
         </aside>
+        </div>
       </div>
     </section>
   );

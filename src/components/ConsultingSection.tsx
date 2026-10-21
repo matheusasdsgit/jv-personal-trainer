@@ -1,5 +1,5 @@
 import { CalendarCheck, ClipboardList, MessageSquareText, PlayCircle, Smartphone, Layers } from 'lucide-react';
-import { plans } from '../config/site';
+import { images, plans } from '../config/site';
 import { PricingCard } from './PricingCard';
 
 const benefits = [
@@ -26,6 +26,17 @@ export function ConsultingSection() {
               necessidades de cada aluno. Tenha acesso a treinos organizados, vídeos explicativos e
               acompanhamento para esclarecer dúvidas e orientar sua evolução.
             </p>
+            {images.consulting && (
+              <figure className="photo photo--consulting">
+                <img
+                  src={images.consulting}
+                  alt={images.consultingAlt}
+                  width={images.consultingWidth}
+                  height={images.consultingHeight}
+                  loading="lazy"
+                />
+              </figure>
+            )}
           </div>
 
           <ul className="benefits">

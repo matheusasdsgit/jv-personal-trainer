@@ -969,3 +969,53 @@
   border-top: 1px solid var(--lavender-line);
   font-size: 0.88rem;
 }
+
+/* ===================== Fotos das seções ===================== */
+.photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--purple-deep);
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photo::after {
+  /* véu roxo leve para integrar a foto à identidade da marca */
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(75, 13, 112, 0) 55%, rgba(53, 6, 79, 0.38));
+}
+.photo--course {
+  aspect-ratio: 4 / 3;
+  margin-bottom: 1.25rem;
+}
+.photo--course img {
+  object-position: 50% 28%;
+}
+.photo--consulting {
+  aspect-ratio: 4 / 3;
+  margin-top: 2rem;
+}
+.photo--consulting img {
+  object-position: 50% 55%;
+}
+.photo--inperson {
+  aspect-ratio: 4 / 3;
+  margin-bottom: 0.75rem;
+}
+.photo--inperson img {
+  object-position: 50% 42%;
+}
+.course__side {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.course__side .course__buy {
+  align-self: stretch;
+}
