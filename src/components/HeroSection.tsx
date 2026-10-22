@@ -1,4 +1,4 @@
-import { ArrowRight, Dumbbell, Footprints, Ruler, Target } from 'lucide-react';
+import {Dumbbell, Footprints, Ruler, Target } from 'lucide-react';
 import { images } from '../config/site';
 
 /**
