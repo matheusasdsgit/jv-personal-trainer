@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { AboutSection } from './components/AboutSection';
-import { ConsultingSection } from './components/ConsultingSection';
+import { ConsultingSection, PlansSection } from './components/ConsultingSection';
 import { FAQSection } from './components/FAQSection';
 import { FinalCTA } from './components/FinalCTA';
 import { Footer } from './components/Footer';
@@ -49,12 +49,13 @@ export default function App() {
     <>
       <a className="skip-link" href="#objetivo">Pular para o conteúdo</a>
       <Header />
-      <main>
+           <main>
         <HeroSection />
         <GoalCards />
         <ConsultingSection />
         <RunningCourseSection />
         <InPersonSection />
+        <PlansSection />
         <AboutSection />
         <TestimonialsSection />
         <FAQSection />
