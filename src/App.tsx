@@ -54,8 +54,8 @@ export default function App() {
         <GoalCards />
         <ConsultingSection />
         <RunningCourseSection />
-        <AboutSection />
         <InPersonSection />
+        <AboutSection />
         <TestimonialsSection />
         <FAQSection />
         <FinalCTA />
