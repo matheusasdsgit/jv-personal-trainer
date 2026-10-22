@@ -14,7 +14,6 @@ const groups = [
   },
   {
     icon: Award,
-    icon: Award,
     title: 'Atuação',
     items: [
       'Treinamento de corrida e musculação.',
