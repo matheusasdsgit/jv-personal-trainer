@@ -47,7 +47,7 @@ export function PricingCard({ plan }: { plan: Plan }) {
         className={`btn btn--block ${plan.highlight ? 'btn--primary' : 'btn--outline'}`}
         ariaLabel={`Contratar plano ${plan.name} pelo WhatsApp`}
       >
-        Contratar pelo WhatsApp
+        Quero falar sobre os planos!
       </WhatsAppButton>
     </article>
   );
