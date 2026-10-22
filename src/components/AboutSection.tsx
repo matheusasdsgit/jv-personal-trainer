@@ -40,7 +40,7 @@ const groups = [
  */
 export function AboutSection() {
   return (
-    <section id="sobre" className="section section--white" tabIndex={-1} aria-labelledby="about-title">
+    <section id="sobre" className="section section--lavender" tabIndex={-1} aria-labelledby="about-title">
       <div className="container about">
         <div className="about__media">
           {images.about ? (
