@@ -326,4 +326,7 @@ section[tabindex='-1']:focus {
   .emoji-branco {
   filter: grayscale(1) brightness(0) invert(1);
 }
+  .emoji-roxo {
+  filter: hue-rotate(260deg) saturate(2);
+}
 }
