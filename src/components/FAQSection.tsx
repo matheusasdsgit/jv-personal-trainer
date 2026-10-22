@@ -4,15 +4,15 @@ import { useId, useState } from 'react';
 const faqs = [
   {
     q: 'A consultoria online é para iniciantes?',
-    a: 'A proposta é oferecer treinamento individualizado conforme os objetivos e as necessidades de cada aluno. Converse com João Victor para avaliar a adequação da consultoria ao seu caso.',
+    a: 'Sim! A consultoria é voltada para quem deseja treinar com mais orientação, seja você iniciante ou já tenha experiência na musculação. O treino é planejado de acordo com seus objetivos, seu nível de condicionamento e sua rotina, para que você possa evoluir com mais confiança e segurança.',
   },
   {
     q: 'Como recebo meus treinos?',
-    a: 'A consultoria utiliza um aplicativo com planilha de treinamento e vídeos explicativos dos exercícios.',
+    a: 'Você recebe seu planejamento de treino por meio de um aplicativo, com exercícios organizados, vídeos explicativos para ajudar na execução e orientações para acompanhar sua evolução. Assim, você sabe o que fazer em cada treino e pode consultar as informações sempre que precisar.',
   },
   {
     q: 'Posso tirar dúvidas durante a consultoria?',
-    a: 'Os planos incluem feedback e suporte de segunda a sexta-feira.',
+    a: 'Sim, Você conta com suporte de segunda a sexta-feira para tirar dúvidas sobre os treinos e receber feedback sobre sua evolução. Assim, você tem orientação durante o processo e mais confiança para seguir seu planejamento de treinamento.',
   },
   {
     q: 'Qual é a diferença entre Bronze, Prata e Ouro?',
@@ -20,11 +20,13 @@ const faqs = [
   },
   {
     q: 'O curso Do Zero aos 5 KM tem mensalidade?',
-    a: 'Não. O preço informado é de R$ 20,00 em pagamento único.',
+    a: 'Sim! O curso funciona com pagamento recorrente mensal. Antes de assinar, confira o valor da mensalidade e as condições de cobrança na página oficial do curso na Hotmart.',
   },
   {
     q: 'Como faço para contratar?',
-    a: 'Entre em contato pelo WhatsApp para conhecer as opções, esclarecer dúvidas e verificar as condições de atendimento.',
+    a: 'É simples! Entre em contato comigo pelo WhatsApp, conte quais são seus objetivos e conheça as opções de treinamento que ofereço. Vou esclarecer suas dúvidas e ajudar você a escolher o plano mais adequado para sua rotina e suas necessidades.
+
+Seu próximo nível começa com o primeiro passo!',
   },
 ];
 
