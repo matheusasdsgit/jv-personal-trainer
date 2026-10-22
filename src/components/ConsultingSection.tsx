@@ -54,8 +54,8 @@ export function ConsultingSection() {
         <div className="container">
           <header className="section-head section-head--center">
             <p className="eyebrow">Planos</p>
-            <h2 id="plans-title" className="section-title">Escolha o plano da sua consultoria</h2>
-            <p className="section-sub">Valores claros, sem surpresas. Compare os benefícios de cada plano.</p>
+            <h2 id="plans-title" className="section-title">Escolha o plano ideal para você!</h2>
+            <p className="section-sub">Treine com planejamento, orientação profissional e acompanhamento de acordo com o plano que combina com seus objetivos e sua rotina.</p>
           </header>
 
           <div className="plans">
