@@ -13,7 +13,6 @@ const benefits = [
 
 export function ConsultingSection() {
   return (
-    <>
       <section id="consultoria" className="section section--lavender" tabIndex={-1} aria-labelledby="consulting-title">
         <div className="container consulting">
           <div className="consulting__intro">
@@ -49,6 +48,11 @@ export function ConsultingSection() {
           </ul>
         </div>
       </section>
+      );
+}
+
+export function PlansSection() {
+  return (
 
       <section id="planos" className="section section--white" tabIndex={-1} aria-labelledby="plans-title">
         <div className="container">
@@ -65,6 +69,5 @@ export function ConsultingSection() {
           </div>
         </div>
       </section>
-    </>
   );
 }
