@@ -44,8 +44,7 @@ export function Logo({ tone, className = '' }: LogoProps) {
         )}
       </span>
       <span className="logo__text">
-        <span className="logo__name">JV Treinamento Físico</span>
-        <span className="logo__sub">João Victor Personal Trainer</span>
+        <span className="logo__name">JV Personal Trainer</span>
       </span>
     </span>
   );
