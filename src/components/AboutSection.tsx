@@ -6,29 +6,30 @@ const groups = [
     icon: GraduationCap,
     title: 'Formação',
     items: [
-      'Bacharelado em Educação Física pela UFPB (concluído em 2022)',
-      'Pós-graduando em Biomecânica, Musculação e Reabilitação Musculoesquelética (em andamento)',
-      'Antropometrista ISAK nível 1',
+      'Bacharelado em Educação Física pela UFPB.,
+      'Pós-graduando em Biomecânica, Musculação e Reabilitação Musculoesquelética.',
+      'Especialista em emagrecimento'.,
+      'Antropometrista ISAK nível 1.',
     ],
   },
   {
     icon: Award,
     title: 'Atuação',
     items: [
-      'Treinamento de corrida e musculação',
-      'Preparação para TAF',
-      'Experiência com CrossFit',
-      'Atividades físicas para pessoas com deficiência',
+      'Treinamento de corrida e musculação.',
+      'Preparação para TAF.',
+      'Experiência com CrossFit.',
+      'Atividades físicas para pessoas com deficiência.',
     ],
   },
   {
     icon: BookOpen,
     title: 'Pesquisa e cursos',
     items: [
-      'Membro do LETFAS — Laboratório de Estudos de Treinamento Físico Aplicado à Saúde',
-      'Primeiros socorros e salvamento aquático',
-      'Avaliação e intervenção no idoso',
-      'HIIT, prescrição e respostas fisiológicas',
+      'Membro do LETFAS — Laboratório de Estudos de Treinamento Físico Aplicado à Saúde.',
+      'Primeiros socorros e salvamento aquático.',
+      'Avaliação e intervenção no idoso.',
+      'HIIT, prescrição e respostas fisiológicas.',
     ],
   },
 ];
@@ -60,16 +61,21 @@ export function AboutSection() {
         <div className="about__content">
           <p className="eyebrow">Sobre</p>
           <h2 id="about-title" className="section-title">Conheça João Victor</h2>
-          <p className="lead">
-            João Victor é profissional de Educação Física formado pela Universidade Federal da Paraíba.
-            Atua com treinamento de força, corrida e preparação física, buscando unir conhecimento
-            técnico, planejamento e atenção às necessidades individuais de cada aluno.
+                  <p className="lead">
+            Sou João Victor, profissional de Educação Física formado pela Universidade Federal da
+            Paraíba (UFPB). Trabalho com musculação, corrida e preparação física, ajudando pessoas a
+            treinarem do jeito certo, com planejamento, orientação e um treino pensado para seus
+            objetivos.
           </p>
           <p>
-            Sua proposta é tornar o treinamento mais acessível e organizado, ajudando cada pessoa a
-            construir uma rotina de atividade física compatível com seus objetivos.
+            Acredito que treinar não precisa ser complicado. Meu objetivo é ajudar você a encontrar o
+            melhor caminho para evoluir, respeitando sua rotina, seu nível de condicionamento e suas
+            necessidades.
           </p>
-
+          <p>
+            Quero que você tenha mais confiança para treinar e consiga transformar a atividade física
+            em parte da sua vida.
+          </p>
           <div className="credentials">
             {groups.map(({ icon: Icon, title, items }) => (
               <section key={title} className="credentials__group" aria-label={title}>
