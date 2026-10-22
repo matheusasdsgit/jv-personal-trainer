@@ -25,11 +25,10 @@ export function HeroSection() {
           </p>
           <div className="hero__actions">
             <a className="btn btn--light" href="#consultoria">
-              Conhecer a consultoria
-              <ArrowRight size={18} aria-hidden="true" />
+             Quero treinar do jeito certo! <span className="emoji-roxo">💪</span>
             </a>
-            <a className="btn btn--outline-light" href="#curso">
-              Quero começar a correr
+          <a className="btn btn--outline-light" href="#curso">
+  Quero correr meus primeiros 5 km <span className="emoji-branco">🏃‍♂️</span>
             </a>
           </div>
         </div>
