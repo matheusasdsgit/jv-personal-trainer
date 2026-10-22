@@ -49,7 +49,19 @@ export function RunningCourseSection() {
         <aside className="course__buy" aria-label="Compra do curso">
           <p className="course__km" aria-hidden="true">5<span>KM</span></p>
           <p className="course__price-label">Assinatura Mensal</p>
-          <p className="course__price">{formatBRL(course.price)}</p>
+          <p className="course__price">
+            {formatBRL(course.price)}
+            <span
+              style={{
+                marginLeft: '0.35rem',
+                fontSize: '1.4rem',
+                fontWeight: 600,
+                color: 'var(--on-dark-soft)',
+              }}
+            >
+              /mês
+            </span>
+          </p>
           <p className="course__price-note">Cobrança recorrente mensal. A assinatura é realizada com segurança pela Hotmart.</p>
           <a
             className="btn btn--accent btn--block"
