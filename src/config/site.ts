@@ -9,6 +9,7 @@
 
 export const brand = {
   name: 'JV Personal Trainer',
+  professional: 'João Victor Personal Trainer',
   city: 'João Pessoa, PB',
   cityFull: 'João Pessoa, Paraíba',
 } as const;
