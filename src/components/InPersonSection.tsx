@@ -3,9 +3,9 @@ import { brand, images, whatsappMessages } from '../config/site';
 import { WhatsAppButton } from './WhatsAppButton';
 
 const services = [
-  { icon: UserCheck, label: 'Treinamento presencial' },
-  { icon: Dumbbell, label: 'Orientação de musculação' },
-  { icon: Ruler, label: 'Avaliação da composição corporal' },
+  { icon: UserCheck, label: 'Treinamento presencial.' },
+  { icon: Dumbbell, label: 'Orientação de musculação.' },
+  { icon: Ruler, label: 'Avaliação da composição corporal.' },
 ];
 
 export function InPersonSection() {
@@ -14,17 +14,16 @@ export function InPersonSection() {
       <div className="container inperson">
         <div className="inperson__text">
           <p className="eyebrow">Atendimento presencial</p>
-          <h2 id="inperson-title" className="section-title">Treinamento com orientação presencial</h2>
+          <h2 id="inperson-title" className="section-title">Quer treinar comigo presencialmente?</h2>
           <p className="lead">
-            Para quem prefere orientação presencial, o acompanhamento permite trabalhar a execução dos
-            exercícios, esclarecer dúvidas e organizar o treinamento de acordo com os objetivos
-            individuais.
+            Treine com orientação de perto, tire suas dúvidas e tenha acompanhamento profissional para executar 
+            os exercícios com mais segurança e confiança. Tudo pensado para seus objetivos e suas necessidades.
           </p>
           <p className="inperson__place">
             <MapPin size={18} aria-hidden="true" /> {brand.cityFull}
           </p>
           <WhatsAppButton message={whatsappMessages.presencial} className="btn btn--primary">
-            Consultar disponibilidade pelo WhatsApp
+            Quero treinar com você!
           </WhatsAppButton>
         </div>
 
