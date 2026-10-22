@@ -1,6 +1,6 @@
 /**
  * ============================================================
- *  CONFIGURAÇÃO CENTRAL — JV Treinamento Físico
+ *  CONFIGURAÇÃO CENTRAL — JV Personal Trainer.
  * ============================================================
  *  Todos os dados comerciais ficam aqui: contatos, preços, links,
  *  caminhos de imagens e flags de publicação.
@@ -8,7 +8,7 @@
  */
 
 export const brand = {
-  name: 'JV Treinamento Físico',
+  name: 'JV Personal Trainer',
   professional: 'João Victor Personal Trainer',
   city: 'João Pessoa, PB',
   cityFull: 'João Pessoa, Paraíba',
@@ -128,16 +128,16 @@ export interface Plan {
  * de fato incluída no preço de R$ 200,00 antes da publicação definitiva.
  */
 const featureLabels = {
-  training: 'Treinamento individualizado e periodizado',
-  sheet: 'Planilha de treino disponibilizada pelo aplicativo',
-  videos: 'Vídeos explicativos dos exercícios',
-  support: 'Feedback e suporte de segunda a sexta-feira',
-  visit: 'Uma visita presencial por mês',
-  isak: 'Avaliação antropométrica e de composição corporal (protocolo ISAK) a cada três meses',
+  training: 'Treinamento individualizado e periodizado.',
+  sheet: 'Planilha de treino disponibilizada pelo aplicativo.',
+  videos: 'Vídeos explicativos dos exercícios.',
+  support: 'Feedback e suporte de segunda a sexta-feira.',
+  visit: 'Uma visita presencial por mês.',
+  isak: 'Avaliação antropométrica e de composição corporal (protocolo ISAK) a cada três meses.',
 } as const;
 
 const visitNote =
-  'Demonstração de exercícios, ajustes e esclarecimento de dúvidas. Em academias sem cobrança adicional para o profissional, ou na Korpus Academia e na Bluefit Liv Mall.';
+  'Demonstração de exercícios, ajustes e esclarecimento de dúvidas. Em academias sem cobrança adicional para o profissional.';
 
 export const plans: Plan[] = [
   {
