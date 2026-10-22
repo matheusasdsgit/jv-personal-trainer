@@ -63,6 +63,7 @@ export const navItems = [
  */
 export const images = {
   /** public/images/brand/ — logo oficial para fundos claros e escuros */
+  logoMark: 'images/brand/logo-simbolo.png',
   logoLight: '', // ex.: 'images/brand/logo-fundo-claro.svg'
   logoDark: '', // ex.: 'images/brand/logo-fundo-escuro.svg'
   /** public/images/hero/ — foto de destaque do hero (recomendado vertical, ~900x1100) */
