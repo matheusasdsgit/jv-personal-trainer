@@ -61,18 +61,18 @@ export function AboutSection() {
         <div className="about__content">
           <p className="eyebrow">Sobre</p>
           <h2 id="about-title" className="section-title">Conheça João Victor</h2>
-                  <p>
+                  <p className="lead">
             Sou João Victor, profissional de Educação Física formado pela Universidade Federal da
             Paraíba (UFPB). Trabalho com musculação, corrida e preparação física, ajudando pessoas a
             treinarem do jeito certo, com planejamento, orientação e um treino pensado para seus
             objetivos.
           </p>
-          <p>
+          <p className="lead">
             Acredito que treinar não precisa ser complicado. Meu objetivo é ajudar você a encontrar o
             melhor caminho para evoluir, respeitando sua rotina, seu nível de condicionamento e suas
             necessidades.
           </p>
-          <p>
+          <p className="lead">
             Quero que você tenha mais confiança para treinar e consiga transformar a atividade física
             em parte da sua vida.
           </p>
