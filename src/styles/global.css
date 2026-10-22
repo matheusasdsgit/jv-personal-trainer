@@ -323,4 +323,7 @@ section[tabindex='-1']:focus {
   .whatsapp-float {
     display: none;
   }
+  .emoji-branco {
+  filter: grayscale(1) brightness(0) invert(1);
+}
 }
