@@ -50,8 +50,8 @@ export const navItems = [
   { label: 'Início', href: '#inicio' },
   { label: 'Consultoria', href: '#consultoria' },
   { label: 'Curso de Corrida', href: '#curso' },
-  { label: 'Sobre', href: '#sobre' },
   { label: 'Presencial', href: '#presencial' },
+  { label: 'Sobre', href: '#sobre' },
   { label: 'Contato', href: '#contato' },
 ] as const;
 
