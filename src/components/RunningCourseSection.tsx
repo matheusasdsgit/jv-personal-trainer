@@ -2,12 +2,12 @@ import { ArrowUpRight, Check } from 'lucide-react';
 import { course, formatBRL, images, links } from '../config/site';
 
 const benefits = [
-  'Plano de treinamento estruturado',
-  'Treinos explicados passo a passo',
-  'Progressão gradual da corrida',
-  'Organização semanal dos treinos',
-  'Foco na preparação para os primeiros 5 km',
-  'Acesso ao material pelo celular',
+  'Plano de treinamento estruturado.',
+  'Treinos explicados passo a passo.',
+  'Progressão gradual da corrida.',
+  'Organização semanal dos treinos.',
+  'Foco na preparação para os primeiros 5 km.',
+  'Acesso ao material pelo celular.',
 ];
 
 export function RunningCourseSection() {
@@ -48,9 +48,9 @@ export function RunningCourseSection() {
         )}
         <aside className="course__buy" aria-label="Compra do curso">
           <p className="course__km" aria-hidden="true">5<span>KM</span></p>
-          <p className="course__price-label">Pagamento único</p>
+          <p className="course__price-label">Assinatura Mensal</p>
           <p className="course__price">{formatBRL(course.price)}</p>
-          <p className="course__price-note">Sem assinatura recorrente. A compra é feita na Hotmart.</p>
+          <p className="course__price-note">Cobrança recorrente mensal. A assinatura é realizada com segurança pela Hotmart.</p>
           <a
             className="btn btn--accent btn--block"
             href={links.hotmartCourse}
