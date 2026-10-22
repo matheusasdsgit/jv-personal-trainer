@@ -6,13 +6,14 @@ const groups = [
     icon: GraduationCap,
     title: 'Formação',
     items: [
-      'Bacharelado em Educação Física pela UFPB.,
+      'Bacharelado em Educação Física pela UFPB.',
       'Pós-graduando em Biomecânica, Musculação e Reabilitação Musculoesquelética.',
-      'Especialista em emagrecimento'.,
+      'Especialista em emagrecimento.',
       'Antropometrista ISAK nível 1.',
     ],
   },
   {
+    icon: Award,
     icon: Award,
     title: 'Atuação',
     items: [
