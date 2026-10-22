@@ -13,22 +13,22 @@ export function HeroSection() {
       <div className="hero__stripes" aria-hidden="true" />
       <div className="container hero__grid">
         <div className="hero__content">
-          <p className="eyebrow eyebrow--light">JV Treinamento Físico · João Pessoa</p>
+          <p className="eyebrow eyebrow--light">JV Personal Trainer · João Pessoa</p>
           <h1 id="hero-title" className="hero__title">
             <span>Seu treino.</span>
             <span>Sua rotina.</span>
             <span className="hero__title-accent">Sua evolução.</span>
           </h1>
           <p className="hero__lead">
-            Treinamento físico individualizado para quem quer evoluir com planejamento,
-            acompanhamento profissional e um método que respeita sua realidade.
+            Musculação ou corrida: tenha um plano para o seu objetivo,
+            orientação para treinar com mais confiança e uma estratégia que respeita seu ritmo.
           </p>
           <div className="hero__actions">
             <a className="btn btn--light" href="#consultoria">
              Quero treinar do jeito certo! <span className="emoji-roxo">💪</span>
             </a>
           <a className="btn btn--outline-light" href="#curso">
-  Quero correr meus primeiros 5 km <span className="emoji-branco">🏃‍♂️</span>
+  Quero correr meus primeiros 5 km! <span className="emoji-branco">🏃‍♂️</span>
             </a>
           </div>
         </div>
