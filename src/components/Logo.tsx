@@ -12,8 +12,7 @@ interface LogoProps {
  * 2. Informe os caminhos em `images.logoLight` / `images.logoDark` (src/config/site.ts)
  * Header e Footer usam este componente, então nada mais precisa mudar.
  *
- * Enquanto não houver arquivo oficial, aparece uma representação TIPOGRÁFICA provisória
- * (não é a logo oficial).
+ * `images.logoMark` coloca o símbolo da marca no lugar do "JV" do quadrado roxo.
  */
 export function Logo({ tone, className = '' }: LogoProps) {
   const src = tone === 'onDark' ? images.logoDark : images.logoLight;
@@ -32,7 +31,17 @@ export function Logo({ tone, className = '' }: LogoProps) {
   return (
     <span className={`logo logo--placeholder logo--${tone} ${className}`}>
       <span className="logo__mark" aria-hidden="true">
-        JV
+        {images.logoMark ? (
+          <img
+            src={images.logoMark}
+            alt=""
+            width={26}
+            height={24}
+            style={{ width: 26, height: 'auto' }}
+          />
+        ) : (
+          'JV'
+        )}
       </span>
       <span className="logo__text">
         <span className="logo__name">JV Treinamento Físico</span>
