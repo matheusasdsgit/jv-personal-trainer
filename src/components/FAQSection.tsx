@@ -34,7 +34,7 @@ export function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section id="faq" className="section section--white" tabIndex={-1} aria-labelledby="faq-title">
+    <section id="faq" className="section section--lavender" tabIndex={-1} aria-labelledby="faq-title">
       <div className="container faq">
         <header className="section-head">
           <p className="eyebrow">Dúvidas</p>
