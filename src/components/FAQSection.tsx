@@ -24,9 +24,7 @@ const faqs = [
   },
   {
     q: 'Como faço para contratar?',
-    a: 'É simples! Entre em contato comigo pelo WhatsApp, conte quais são seus objetivos e conheça as opções de treinamento que ofereço. Vou esclarecer suas dúvidas e ajudar você a escolher o plano mais adequado para sua rotina e suas necessidades.
-
-Seu próximo nível começa com o primeiro passo!',
+    a: 'É simples! Entre em contato comigo pelo WhatsApp, conte quais são seus objetivos e conheça as opções de treinamento que ofereço. Vou esclarecer suas dúvidas e ajudar você a escolher o plano mais adequado para sua rotina e suas necessidades. Seu próximo nível começa com o primeiro passo!',
   },
 ];
 
