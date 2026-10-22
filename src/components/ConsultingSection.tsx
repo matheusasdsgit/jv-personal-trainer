@@ -3,12 +3,12 @@ import { images, plans } from '../config/site';
 import { PricingCard } from './PricingCard';
 
 const benefits = [
-  { icon: Layers, text: 'Treinamento individualizado e periodizado' },
-  { icon: ClipboardList, text: 'Planejamento conforme os objetivos do aluno' },
-  { icon: Smartphone, text: 'Treinos disponibilizados por aplicativo' },
-  { icon: PlayCircle, text: 'Vídeos explicativos dos exercícios' },
-  { icon: MessageSquareText, text: 'Feedback e suporte de segunda a sexta-feira' },
-  { icon: CalendarCheck, text: 'Benefícios adicionais de acordo com o plano contratado' },
+  { icon: Layers, text: 'Treinamento individualizado e periodizado.' },
+  { icon: ClipboardList, text: 'Planejamento conforme os objetivos do aluno.' },
+  { icon: Smartphone, text: 'Treinos disponibilizados por aplicativo.' },
+  { icon: PlayCircle, text: 'Vídeos explicativos dos exercícios.' },
+  { icon: MessageSquareText, text: 'Feedback e suporte de segunda a sexta-feira.' },
+  { icon: CalendarCheck, text: 'Benefícios adicionais de acordo com o plano contratado.' },
 ];
 
 export function ConsultingSection() {
