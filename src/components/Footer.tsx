@@ -13,7 +13,6 @@ export function Footer() {
       <div className="container footer__grid">
         <div className="footer__brand">
           <Logo tone="onDark" />
-          <p>{brand.professional}</p>
         </div>
 
         <nav aria-label="Links do rodapé" className="footer__col">
