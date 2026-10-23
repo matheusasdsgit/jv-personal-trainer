@@ -30,11 +30,11 @@ export default function App() {
   // Move o foco para a seção de destino (navegação por teclado) e volta ao topo na troca de página
   useEffect(() => {
     if (isPrivacy) {
-      document.title = 'Aviso de privacidade | JV Treinamento Físico';
+      document.title = 'Aviso de privacidade | JV Personal Trainer.';
       window.scrollTo(0, 0);
       return;
     }
-    document.title = 'JV Treinamento Físico | João Victor Personal Trainer em João Pessoa';
+    document.title = 'João Victor | Personal Trainer em João Pessoa.';
     const id = hash.replace('#', '');
     if (!id) return;
     const target = document.getElementById(id);
